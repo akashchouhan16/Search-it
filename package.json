@@ -4,9 +4,15 @@
   "description": "A basic reddit search application using fetch.",
   "main": "index.js",
   "scripts": {
-    "start" : "parcel index.html",
-    "parcel" : "parcel index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Akash Chouhan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }

@@ -1,2 +1,3 @@
 # Search-it
-A search app using reddit api.
+
+A search app using the reddit api.
